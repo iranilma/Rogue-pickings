@@ -1,0 +1,180 @@
+
+/************Header*************/
+header{
+	height: 110px;
+	margin: 0 auto;
+display: block;
+}
+li{
+	display: list-item;
+}
+h1{
+	font-size: 30px;
+}
+header h1 span{
+	color: #77a466;
+}
+header h1{
+	float: left;
+	margin: 0;
+	padding: 38px 0px;
+}
+
+ header nav{
+ 	float: right;
+ 	padding: 46px 0;
+
+ }
+
+ header nav ul{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ header nav ul li{
+ 	text-transform: uppercase;
+ 	font-weight: 700;
+ 	font-size: 14px;
+ 	padding: 0 10px;
+ 	display: inline;
+ }
+
+ header nav ul li a{
+ 	text-decoration: none;
+ 	color: #77a466;
+ }
+
+ a{
+ 	background-color: transparent;
+ }
+ div{
+ 	display: block;
+ }
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*********styles*********/
+h1, h2, h3 h4{ 
+text-transform: uppercase;
+color: black;
+font-weight: 700;
+ }
+
+ body{
+ 	display: block;
+ }
+
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+ 
+ /******top section*/
+ .top-section, .info{
+ 	margin: 0 auto;
+ 	clear: both;
+ }
+ .main-image{
+ 	height: auto;
+ 	float: left;
+ }
+
+ .main-image img{
+ 	border-bottom: 3px solid #77a466;
+ 	border-top:  3px solid #77a466;
+ }
+
+ img{
+ 	border:0;
+ }
+.welcome{
+	height: auto;
+	float: left;
+}
+ .welcome h3{
+ 	text-align: left;
+ 	padding: 5px 0;
+ 	color: #77a466;
+ }
+
+ h3{
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	display: block;
+ }
+
+ .welcome p{
+ 	padding: 0;
+ 	font-size: 16px;
+ 	line-height: 25px;
+ }
+
+/********info section *********/
+
+.info-one, .info-two, .info-three{
+	width: 399px;
+	height: auto;
+	float:left;
+	border-top: 1px solid #eee;
+}
+
+.info-one h4{
+	padding: 10px 0;
+}
+h4{
+	font-size: 12px;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+}
+
+.menu li{
+	padding: 10px 0;
+	color: #77a466;
+}
+
+.info-two{
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.info-two h4, .info-three h4{
+	padding: 10px 30px;
+}
+.reviews{
+	color: #333;
+	font-size: 16px;
+	line-height: 21px;
+
+}
+
+p{
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0 30px;
+}
+
+.contact{
+	font-size: 16px;
+	line-height: 24px;
+
+}
+/*/********footer*/
+footer{
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer span{
+	font-family:  'Architects Daughter', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
